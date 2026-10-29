@@ -1,0 +1,22 @@
+IT Security and Acceptable Use Policy - Version 5.0
+
+1. Password Requirements
+All corporate accounts must use passwords of at least 14 characters, including uppercase, lowercase, a number, and a special character. Passwords must be rotated every 180 days. Multi-factor authentication (MFA) is mandatory for all systems that store customer data.
+
+2. Device Management
+Company-issued laptops must have full-disk encryption enabled and must be enrolled in the corporate Mobile Device Management (MDM) system within 48 hours of receipt. Personal devices used to access company email must also be enrolled in MDM.
+
+3. Data Classification
+Data is classified into four tiers: Public, Internal, Confidential, and Restricted. Restricted data (e.g., customer PII, financial records) may only be stored in approved systems (the primary data warehouse and the encrypted document vault) and may never be emailed externally without encryption and Data Protection Officer sign-off.
+
+4. Incident Reporting
+Any suspected security incident (phishing email, lost device, unauthorized access) must be reported to the Security Operations Center within 1 hour of discovery via the #security-incidents Slack channel or security@company.internal. Failure to report within 24 hours may result in disciplinary action.
+
+5. Third-Party Software
+Employees may not install unapproved software on company devices. New software requests go through the IT Service Portal and require a security review for any tool that processes Confidential or Restricted data.
+
+6. VPN and Remote Access
+All remote access to internal systems must go through the corporate VPN. Split-tunneling is disabled by default. VPN sessions automatically time out after 45 minutes of inactivity.
+
+7. Offboarding
+Upon an employee's last working day, IT must revoke all system access, VPN credentials, and MFA tokens within 4 hours, and device wipe must be scheduled within 5 business days.

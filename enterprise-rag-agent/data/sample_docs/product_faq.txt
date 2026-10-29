@@ -1,0 +1,22 @@
+Product FAQ - CloudSync Enterprise Suite
+
+Q: What pricing tiers does CloudSync Enterprise offer?
+A: CloudSync offers three tiers: Starter ($12/user/month, up to 50 users), Professional ($28/user/month, up to 500 users, includes SSO and audit logs), and Enterprise (custom pricing, unlimited users, includes dedicated support and a 99.95% uptime SLA).
+
+Q: What is the data retention policy for deleted files?
+A: Deleted files are retained in a recoverable trash state for 30 days across all tiers. Enterprise tier customers can request an extended retention window of up to 180 days.
+
+Q: Does CloudSync support single sign-on (SSO)?
+A: Yes. SSO via SAML 2.0 and OIDC is available on the Professional and Enterprise tiers. Starter tier customers can upgrade at any time to enable SSO.
+
+Q: What is the maximum file upload size?
+A: 5GB per file on Starter and Professional tiers, 25GB per file on Enterprise tier.
+
+Q: What regions is data hosted in?
+A: Customer data is hosted in the region selected at account creation: US-East, EU-West, or AP-South. Cross-region replication is available as an add-on for Enterprise customers requiring disaster recovery.
+
+Q: How does the API rate limit work?
+A: The REST API allows 1,000 requests per minute on Professional tier and 5,000 requests per minute on Enterprise tier, with burst allowance of 2x for up to 60 seconds.
+
+Q: What is the SLA for support response times?
+A: Starter tier: 48-hour email response. Professional tier: 8-hour response, business hours. Enterprise tier: 1-hour response, 24/7, with a dedicated Slack Connect channel.
